@@ -65,7 +65,7 @@ ui <- dashboardPage(
         tabName = "summary",
         fluidRow(
           box(
-            title = "Summary of Heart Disease Data Set",
+            title = "Summary of Market Sales Data Set",
             width = 6,
             solidHeader = TRUE,
             collapsible = TRUE,
@@ -146,7 +146,7 @@ server <- function(input, output) {
   output$image <- renderImage({
     list(src = "blog_pictures2Fdata-driven-marketing-2017-marketers-data-critical.jpg", width = 600, height = 500)
   }, deleteFile = FALSE)
-  output$text1<-renderText("This web page are made for giving the general information about heart disease data set. It also has POWER BI and R Markdown files.")
+  output$text1<-renderText("This web page are made for giving the general information about market sales data set. It also has POWER BI and R Markdown files.")
   output$Summary<-renderTable(summary(dt))
   output$image2 <- renderImage({
     list(src = "marketLinePowerBI.png", width = 800, height = 600)
@@ -223,4 +223,3 @@ server <- function(input, output) {
 
 
 shinyApp(ui, server)
-
