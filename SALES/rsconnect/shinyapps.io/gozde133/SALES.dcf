@@ -1,0 +1,12 @@
+name: SALES
+title: SALES
+username: gozde133
+account: gozde133
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9851432
+bundleId: 7678686
+url: https://gozde133.shinyapps.io/SALES/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
